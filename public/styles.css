@@ -54,3 +54,7 @@ body {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+.contactImages{
+  width: 10rem;
+  height: 10rem;
+}
