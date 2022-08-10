@@ -7,10 +7,6 @@ import Contacts from "./Contacts";
 
 function App() {
     return <div>
-        {/* <Header />
-        <Footer />
-        <Note /> */}
-        {/* <Card /> */}
     </div>
 }
 export default App

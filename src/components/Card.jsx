@@ -1,5 +1,6 @@
 import React from "react";
-
+import Avatar from "./Avatar";
+import Details from "./Details";
 
 function Card(params) {
     return (
@@ -7,13 +8,15 @@ function Card(params) {
             <div className="card">
                 <div className="top">
                     <h2 className="name">{params.name}</h2>
-                    <img className="circle-img" src={params.img} alt="test_img"></img>
+                    <Avatar
+                        img={params.img}
+                    />
                 </div>
                 <div className="bottom">
-                    <div className="info">
-                        <p>{params.phone}</p>
-                        <p>{params.email}</p>
-                    </div>
+                    <Details
+                        phone={params.phone}
+                        email={params.email}
+                    />
                 </div>
             </div>
         </div>
