@@ -7,6 +7,7 @@ function Card(params) {
         <div>
             <div className="card">
                 <div className="top">
+                    <p>{params.id}</p>
                     <h2 className="name">{params.name}</h2>
                     <Avatar
                         img={params.img}
