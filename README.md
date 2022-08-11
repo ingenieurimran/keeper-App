@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# keeper app using 'React Params, Mapping data to Components'"
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
