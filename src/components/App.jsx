@@ -1,21 +1,11 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import Note from "./Note";
-import Notes from "./Notes";
+import Login from "./Loging";
+const isLoggedIn = true;
 
 const App = () => (
-    <div>
-        <Header />
-        {Notes.map(params => (
-            <Note
-                key={params.key}
-                title={params.title}
-                content={params.content}
-            /> 
-        ))
-        }
-        <Footer />
+    <div className="container">
+        {isLoggedIn ? <h1>Hello</h1> : <Login />}
     </div>
 )
-export default App
+
+export default App;
